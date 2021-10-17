@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Happiness Score worldwide in 2021",
+    "title": "World Happiness Score in 2019",
     "width": 600,
     "height": 300,
     "background":"lightblue",
@@ -36,7 +36,8 @@
             "type": "nominal",
             "field": "Country or region"
           },
-          {"type": "quantitative",
-          "field": "Score"}]
+          {
+            "type": "quantitative",
+            "field": "Score"}]
     }
 }

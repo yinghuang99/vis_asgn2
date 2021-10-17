@@ -1,0 +1,21 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+    "title": "Country GDP per capita.",
+    "width": 800,
+    "height": 400,
+    "data": {"url": "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/2019_world_happiness_score.csv"},
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Country or region", "type": "nominal"},
+      "y": {"field": "GDP per capita", "type": "quantitative"},
+    
+      "tooltip": [{
+        "type": "nominal",
+        "field": "Country or region"
+      },
+      {
+        "type": "quantitative",
+        "field": "GDP per capita"}]
+    }
+    
+  }
