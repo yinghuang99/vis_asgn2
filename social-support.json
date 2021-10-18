@@ -1,13 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "title": "Country GDP per capita.",
+    "title": "Social support for top 15 happiest country",
     "width": 500,
-    "height": 250,
+    "height": 150,
     "data": {"url": "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/Top_15_Happiest_countries.csv"},
     "mark": "line",
     "encoding": {
       "x": {"field": "Country or region", "type": "nominal"},
-      "y": {"field": "GDP per capita", "type": "quantitative"},
+      "y": {"field": "Social support", "type": "quantitative"},
     
       "tooltip": [{
         "type": "nominal",
@@ -15,7 +15,7 @@
       },
       {
         "type": "quantitative",
-        "field": "GDP per capita"}]
+        "field": "Social support"}]
     }
     
   }
