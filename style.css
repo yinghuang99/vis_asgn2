@@ -1,0 +1,45 @@
+.body {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  body {
+    background-color: beige;
+  }
+  
+  .page {
+    width: 1250px;
+    background-color: beige;
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+  }
+  
+  .vis-container {
+    width: 100%;
+  }
+  
+  .description h2,
+  h1 {
+    color: black;
+  }
+  
+  .description-right {
+    background-color: beige;
+    color: black;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .pure-g {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .strong {
+    font-weight: bold;
+    font-style: italic;
+    color: #911f27;
+    font-size: 20px;
+  }
+  

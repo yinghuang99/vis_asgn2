@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "title": "Life expectancy for top 15 happiest country",
     "width": 500,
     "height": 150,
+    "background": "lightblue",
     "data": {"url": "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/Top_15_Happiest_countries.csv"},
     "mark": "line",
     "encoding": {

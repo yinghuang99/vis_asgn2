@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "title": "Country GDP per capita.",
     "width": 500,
     "height": 250,
+    "background": "lightblue",
     "data": {"url": "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/Top_15_Happiest_countries.csv"},
     "mark": "line",
     "encoding": {
