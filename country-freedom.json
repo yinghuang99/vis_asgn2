@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
-    "width": 750,
+    "width": 600,
     "height": 150,
     "background": "lightblue",
     "data": {"url": "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/Top_15_Happiest_countries.csv"},
