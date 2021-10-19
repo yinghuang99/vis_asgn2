@@ -61,35 +61,21 @@
    </div>
    <!-- end pure grid group --> 
 
-    <!-- pure grid group -->
-       <div class="pure-g">
-        <div class="pure-u-1-1">
-          <h2 style="font-family: 'Times New Roman', Times, serif;color: rgb(143, 60, 111);">Country's freedom for top 15 happiest country</h2>
-        </div>
-        <div class="pure-u-2-3">
-          <div id="vis3" class="vis-container"></div>
-        </div>
-        <div class="pure-u-1-3">
-            <div class="description description-right">
-                <p style="text-align: justify;">Freedom is a condition in which people have the <strong>opportunity to speak</strong>, <strong>act and pursue happiness</strong> without unnecessary external restrictions. Freedom is <strong>important</strong> because it leads to enhanced expressions of creativity and original thought, increased productivity, and an overall high quality of life. When a country (such as Finland) priotize all these aspects, residents will then be able to gain fully access to their own personal freedom and <strong>live happily</strong>.</p>
-            </div>
-          </div>
-      </div>
-
-      <div class="pure-g">
-        <div class="pure-u-1-1">
-          <h2 style="font-family: 'Times New Roman', Times, serif;color: rgb(143, 60, 111);">Social support for top 15 happiest country </h2>
-        </div>
-        <div class="pure-u-2-3">
-          <div id="vis4" class="vis-container"></div>
-        </div>
-        <div class="pure-u-1-3">
-           <div class="description description-right">
-               <p style="text-align: justify;">Research consistently finds that people who <strong>perceive their family and friends as supportive</strong> report <strong>greater happiness</strong> than those who <strong>doubt their social network's</strong> supportiveness. The link between perceived support and happiness reflects both the trait-like personality of support recipients, as well as social interaction. From the chart, we can see that across all these countries, they have contribute significant efforts in providing social support to it's residents. </p>
-           </div>
-         </div>
-      </div>
-      <!-- end pure grid group --> 
+   <!-- pure grid group -->
+   <div class="pure-g">
+    <div class="pure-u-1-1">
+      <h2 style="font-family: 'Times New Roman', Times, serif;color: rgb(143, 60, 111);">Top 15 happiest country by attributes</h2>
+    </div>
+    <div class="pure-u-2-3">
+      <div id="vis3" class="vis-container"></div>
+    </div>
+    <div class="pure-u-1-3">
+       <div class="description description-right">
+           <p style="text-align: justify;">From the chart, we can see that the <strong>happiness score</strong> of a country is <strong>affected by several attributes</strong>. Government or leader in any country should <strong>pay more attention and devote more effort</strong> into developing and improving all these aspects in order to <strong>provide their residents a happier life</strong>.</p>
+       </div>
+     </div>
+  </div>
+  <!-- end pure grid group --> 
 
    <div class="pure-g">
     <div class="pure-u-1-1 small-font">
@@ -103,8 +89,7 @@
  <script type="text/javascript">
    var specVis1 = "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/country-happiness-score.json";
    var specVis2= "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/country-gdp-per-capita.json";
-   var specVis3= "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/country-freedom.json";
-   var specVis4= "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/social-support.json";
+   var specVis3= "https://raw.githubusercontent.com/yinghuang99/vis_asgn2/main/flowchart.json";
  
    vegaEmbed('#vis1', specVis1).then(function(result) {
      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -118,11 +103,6 @@
      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
    }).catch(console.error);
 
-   vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
-     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-   }).catch(console.error);
-
- 
  </script>
  </body>
  </html>
